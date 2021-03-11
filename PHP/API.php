@@ -1,4 +1,5 @@
 <?php
+function get_trimble_tracking(){
 	$curl = curl_init();
 	$url = "https://ws.tmsitrimble.in/GenericServices/get/json/locationDataFetcher/locationDetails";
 	$data = array(
